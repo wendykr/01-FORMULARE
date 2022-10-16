@@ -1,0 +1,84 @@
+/* intuitivnejsi box siying */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+	margin: 20px;
+	font: 16px/1.5 sans-serif ;
+	background-color: #e5e5e5;
+}
+
+/* ------------------------- */
+
+/*
+BARVY:
+červená	na hlavičku		#e74c3c
+zelená na tlačítko		#2ecc71
+*/
+
+.login {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background-color: white;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 300px;
+}
+.form {
+	padding: 20px;
+}
+
+.nazev {
+	border-radius: 10px 10px 0 0;
+	background-color: #e74c3c;
+	padding: 10px 20px;
+}
+
+.nazev h2 {
+	margin: 0;
+	color: white;
+	font-weight: 400;
+}
+
+.form-field, .form-checkbox, .button {
+	margin-bottom: 10px;
+}
+
+.form-field label {
+	display: block;
+	font-size: 14px;
+	color: grey;
+}
+
+.form-field input[type="email"], .form-field input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 16px;
+	border: 1px solid gray;
+}
+
+.form-field input[type="email"]:focus, .form-field input[type="password"]:focus {
+	outline: 0;
+	border: 2px solid gray;
+}
+
+.button {
+	border: 0;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 100%;
+	background-color: #2ecc71;
+	color: white;
+	font-size: 16px;
+}
+
+.button:hover {
+	background-color: green;
+}
+
+.popis {
+	text-align: center;
+	font-size: 13px;
+}
